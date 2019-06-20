@@ -1,0 +1,166 @@
+[
+  {
+    "name": "脊柱理疗计划",
+    "sessionList": [
+      {
+        "name": "放松颈部肌肉",
+        "video_url": "http://lan.dailyyoga.com.cn/tv_video_280_20.mp4"
+      },
+      {
+        "name": "释放肩颈压力",
+        "video_url": "http://lan.dailyyoga.com.cn/tv_video_280_20.mp4"
+      },
+      {
+        "name": "深层激活肩胛",
+        "video_url": "http://lan.dailyyoga.com.cn/tv_video_280_20.mp4"
+      },
+      {
+        "name": "改善肩背形态",
+        "video_url": "https://lan.dailyyoga.com.cn/tv_video_281_20.mp4"
+      },
+      {
+        "name": "减轻背部疼痛",
+        "video_url": "https://lan.dailyyoga.com.cn/tv_video_281_20.mp4"
+      },
+      {
+        "name": "强化背部肌群",
+        "video_url": "https://lan.dailyyoga.com.cn/tv_video_281_20.mp4"
+      },
+      {
+        "name": "缓解腰椎不适",
+        "video_url": "https://lan.dailyyoga.com.cn/tv_video_282_20.mp4"
+      },
+      {
+        "name": "矫正脊柱侧弯",
+        "video_url": "https://lan.dailyyoga.com.cn/tv_video_282_20.mp4"
+      },
+      {
+        "name": "调整脊柱正位",
+        "video_url": "https://lan.dailyyoga.com.cn/tv_video_282_20.mp4"
+      }
+    ]
+  },
+  {
+    "name": "全身锻炼计划",
+    "sessionList": [
+      {
+        "name": "激活双腿",
+        "video_url": "https://lan.dailyyoga.com.cn/powerfullegsactivationtv1543201168821"
+      },
+      {
+        "name": "紧致翘臀",
+        "video_url": "https://lan.dailyyoga.com.cn/tighthipsbuildertv1543201265328"
+      },
+      {
+        "name": "开髋正位",
+        "video_url": "https://lan.dailyyoga.com.cn/pelvisopenerandalignmenttv1543201322899"
+      },
+      {
+        "name": "腰腹雕刻",
+        "video_url": "https://lan.dailyyoga.com.cn/absandwaistsculptortv1543205710228"
+      },
+      {
+        "name": "舒展背部",
+        "video_url": "https://lan.dailyyoga.com.cn/backmuscleextensiontv1543205754349"
+      },
+      {
+        "name": "整合平衡",
+        "video_url": "https://lan.dailyyoga.com.cn/balancingflowtv1543205808536"
+      },
+      {
+        "name": "塑造美胸",
+        "video_url": "https://lan.dailyyoga.com.cn/balancingflowtv1543206265743"
+      },
+      {
+        "name": "肩颈打造",
+        "video_url": "https://lan.dailyyoga.com.cn/shoulderandnecktonertv1543212154603"
+      },
+      {
+        "name": "全身燃脂",
+        "video_url": "https://lan.dailyyoga.com.cn/fullbody1548749085977"
+      }
+    ]
+  },
+  {
+    "name": "普拉提线条雕刻初级",
+    "sessionList": [
+      {
+        "name": "核心激活",
+        "video_url": "http://lan.dailyyoga.com.cn/tv_video_354_35.mp4"
+      },
+      {
+        "name": "腹肌募集",
+        "video_url": "http://lan.dailyyoga.com.cn/tv_video_355_35.mp4"
+      },
+      {
+        "name": "瘦腿翘臀",
+        "video_url": "http://lan.dailyyoga.com.cn/tv_video_356_25.mp4"
+      },
+      {
+        "name": "完美人鱼线",
+        "video_url": "http://lan.dailyyoga.com.cn/tv_video_357_25.mp4"
+      },
+      {
+        "name": "蜜桃臀养成",
+        "video_url": "http://lan.dailyyoga.com.cn/tv_video_358_30.mp4"
+      },
+      {
+        "name": "腹部进阶",
+        "video_url": "http://lan.dailyyoga.com.cn/tv_video_359_25.mp4"
+      },
+      {
+        "name": "美背打造",
+        "video_url": "http://lan.dailyyoga.com.cn/tv_video_360_25.mp4"
+      },
+      {
+        "name": "终极腹部",
+        "video_url": "http://lan.dailyyoga.com.cn/tv_video_361_25.mp4"
+      }
+    ]
+  },
+  {
+    "name": "全身燃脂计划",
+    "sessionList": [
+      {
+        "name": "全身激活",
+        "video_url": "https://lan.dailyyoga.com.cn/ranzhi11557027843823"
+      },
+      {
+        "name": "腹部重塑",
+        "video_url": "https://lan.dailyyoga.com.cn/ranzhi21557028395712"
+      },
+      {
+        "name": "修饰腰线",
+        "video_url": "https://lan.dailyyoga.com.cn/ranzhan31557028489103"
+      },
+      {
+        "name": "臀线提升",
+        "video_url": "https://lan.dailyyoga.com.cn/ranzhi41557028660142"
+      },
+      {
+        "name": "美背塑造",
+        "video_url": "https://lan.dailyyoga.com.cn/ranzhi51557028775895"
+      },
+      {
+        "name": "一字锁骨养成",
+        "video_url": "https://lan.dailyyoga.com.cn/ranzhi61557028841970"
+      },
+      {
+        "name": "纤细手臂",
+        "video_url": "https://lan.dailyyoga.com.cn/ranzhi71557028928376"
+      },
+      {
+        "name": "双腿速瘦",
+        "video_url": "https://lan.dailyyoga.com.cn/ranzhi81557028997501"
+      },
+      {
+        "name": "全身舒缓",
+        "video_url": "https://lan.dailyyoga.com.cn/ranzhi91557034537538"
+      },
+      {
+        "name": "加速燃脂",
+        "video_url": "https://lan.dailyyoga.com.cn/ranzhi101557034616906"
+      }
+    ]
+  }
+]

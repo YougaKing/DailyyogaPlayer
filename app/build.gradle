@@ -1,0 +1,60 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        release {
+            Properties properties = new Properties()
+            InputStream inputStream = project.rootProject.file('local.properties').newDataInputStream()
+            properties.load(inputStream)
+            def storeFilePath = properties.getProperty('storeFile')
+            def keyAliasValue = properties.getProperty('keyAlias')
+            def keyPasswordValue = properties.getProperty('keyPassword')
+            def storePasswordValue = properties.getProperty('storePassword')
+
+            keyAlias keyAliasValue
+            keyPassword keyPasswordValue
+            storeFile file(storeFilePath)
+            storePassword storePasswordValue
+        }
+    }
+
+    compileSdkVersion 27
+    buildToolsVersion '27.0.3'
+
+    defaultConfig {
+        applicationId "com.pili.pldroid.playerdemo"
+        minSdkVersion 14
+        targetSdkVersion 27
+        versionCode 12
+        versionName "2.1.8"
+        buildConfigField "long", "BUILD_TIMESTAMP", System.currentTimeMillis() + "L"
+    }
+    buildTypes {
+        debug {
+            signingConfig signingConfigs.release
+        }
+        release {
+            signingConfig signingConfigs.release
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['src/main/jniLibs']
+        }
+    }
+}
+
+dependencies {
+    implementation files('libs/pldroid-player-2.1.8.jar')
+    implementation 'com.android.support:appcompat-v7:27.1.0'
+    implementation 'com.android.support:recyclerview-v7:27.1.0'
+
+    implementation 'com.jakewharton:butterknife:8.8.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+    implementation 'io.reactivex.rxjava2:rxjava:2.1.9'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.0.2'
+    implementation 'com.google.code.gson:gson:2.8.5'
+}
